@@ -419,7 +419,7 @@ end )
 
 hook.Add( "PlayerCanPickupWeapon", "cfc_stickaroundondeath_nodoublepickup", function( ply, wep )
     if not wep.CFCSimpleWeapon then return end
-    if not wep:CanPlayerPickUp( ply ) then return false end
+    if wep.CanPlayerPickUp and not wep:CanPlayerPickUp( ply ) then return false end
     if wep.AllowMultiplePickup ~= false then return end
 
     local class = wep:GetClass()

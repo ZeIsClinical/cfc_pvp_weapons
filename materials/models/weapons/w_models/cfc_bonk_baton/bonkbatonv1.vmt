@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/weapons/w_models/cfc_bonk_baton/bonkbatonv1"
+	"$surfaceprop"		"metal"
+	"$model"			"1"
+
+	"$phong"			"1"
+	"$phongboost"		"2.5"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$phongexponent"		"25"
+	"$phongalbedotint"	"1"
+
+	"$rimlight"			"1"
+	"$rimlightboost"		"1.5"
+	"$rimlightexponent"	"4"
+
+	"$selfillum"		"1"
+	"$selfillumtint"		"[0.2 0.4 1.0]"
+
+	"$envmap"			"env_cubemap"
+	"$envmaptint"		"[0.15 0.15 0.2]"
+	"$envmapfresnel"		"1"
+
+	"$nocull"			"0"
+}
